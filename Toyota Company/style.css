@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* NavBar starts here */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background: rgba(128, 128, 128, 0.391);
+}
+
+img{
+    width: 150px;
+    height: 50px;
+}
+
+.navlinks{
+    width: 30%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: brown;
+    font-size: 25px;
+}
+
+/* NavBar ends here */
+
+/* Hero SEction Starts Here */
+.hero{
+    width: 100%;
+    height: 89vh;
+    background: url(./Images/Test\ Drive\ New\ Cars\ for\ Money\ \(Easiest\ $50\ Ever\).jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+
+.herooverlay{
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 70px;
+    color: white;
+}
+
+p{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+/* Hero Section ENds here */
+/* Gallery Section starts here */
+
+.gallery{
+    width: 100%;
+    height: 100vh;
+    background: url(./Images/Gallery\ of\ Toyota\ Corolla\ Shinosaka\ Meishin\ Ibaraki\ Showroom\ _\ Takenaka\ Corporation\ \ -\ 12.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.galleryoverlay{
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.galleryP{
+    font-size: 23px;
+}
+
+h3{
+    font-size: 40px;
+    color: white;
+}
+
+.galleryimages{
+    margin: 60px 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow-x: auto;
+    gap: 15px;
+
+}
+
+.image1{
+    background: url(./Images/Slammed\ Camry.jpg) ;
+    height: 300px;
+    width: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.image2{
+    background: url(./Images/Slammed\ Camry.jpg) ;
+    height: 300px;
+    width: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.image3{
+    background: url(./Images/Slammed\ Camry.jpg) ;
+    height: 300px;
+    width: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.image4{
+    background: url(./Images/Slammed\ Camry.jpg) ;
+    height: 300px;
+    width: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.image5{
+    background: url(./Images/Slammed\ Camry.jpg) ;
+    height: 300px;
+    width: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.image6{
+    background: url(./Images/Slammed\ Camry.jpg) ;
+    height: 300px;
+    width: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Gallery section ends here */
+/* Team Section Starts here */
+.team{
+    height: 100vh;
+    width: 100vw;
+    background: url(./Images/Slammed\ Camry.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamoverlay{
+    background: rgba(247, 247, 247, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team h3{
+color: black;
+}
+.teamimages{
+    margin: 60px 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow-x: auto;
+    gap: 15px;
+
+}
+
+.teamimage1{
+    background: url(./Images/20\ Best\ Male\ Model\ Poses\ Ideas.jpg) ;
+    height: 400px;
+    width: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.teamimage1 h4:hover{
+    display: flex;
+    color: white;
+    font-size: 30px;
+    
+}
+
+.teamimage1 p:hover{
+    font-size: 15px;
+}
+
+.teamimage2{
+    background: url(./Images/17\ Smart\ Posing\ Tips\ to\ Capture\ Perfect\ Male\ Portrait\ Photographs\ For\ 2025.jpg) ;
+    height: 400px;
+    width: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamimage2 h4:hover{
+    display: flex;
+    color: white;
+    font-size: 30px;
+    
+}
+
+.teamimage2 p:hover{
+    font-size: 15px;
+}
+.teamimage3{
+    background: url(./Images/Professional\ headshot\ of\ a\ businessman_\ Corporate\ photography.jpg) ;
+    height: 400px;
+    width: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamimage3 h4:hover{
+    display: flex;
+    color: white;
+    font-size: 30px;
+    
+}
+
+.teamimage3 p:hover{
+    font-size: 15px;
+}
+
+/* Team section ends here */
+/* FOoter section starts here */
+footer{
+    border: 2px solid blue;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    color: black;
+}
